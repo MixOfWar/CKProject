@@ -1,0 +1,34 @@
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: purple;
+    color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.pics {
+    height: 200px;
+    margin: auto;
+}
+
+p {
+    text-indent: 25px;
+    color: orchid;
+}
+
+#displayExample {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    flex-direction: column;
+}
